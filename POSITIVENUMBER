@@ -1,0 +1,10 @@
+l=[]
+p=[]
+n=int(input("total numbers"))
+for i in range(n):
+	m=int(input())
+	l.append(m)
+for i in l:
+	if i>=0:
+		p.append(i)
+print(p)
