@@ -1,3 +1,4 @@
+#1
 l1=[]
 l2=[]
 n=int(input("Enter a element"))
@@ -8,5 +9,11 @@ if i==1:
 else:
 	l2.append(n)
 	print(l2)
-	
+#2
+
+#3
+dic={"abc":123,"def":4556,"ghi":78889}
+del(dic["def"])
+print(dic)
+
 	
